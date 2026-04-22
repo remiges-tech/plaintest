@@ -19,7 +19,7 @@ builds:
       - amd64
       - arm64
     ldflags:
-      - -s -w -X github.com/ssd532/plaintest/internal/core.Version={{.Version}}
+      - -s -w -X github.com/remiges-tech/plaintest/internal/core.Version={{.Version}}
 
 archives:
   - id: plaintest-archive
@@ -34,7 +34,6 @@ archives:
       - README.md
       - LICENSE*
       - QUICK_START.md
-      - USER_DOCS.md
 
 checksum:
   name_template: "checksums.txt"
