@@ -1,4 +1,4 @@
-module github.com/ssd532/plaintest
+module github.com/remiges-tech/plaintest
 
 go 1.22.2
 

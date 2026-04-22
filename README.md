@@ -29,9 +29,24 @@ Newman runs Postman collections. PlainTest decides which collections iterate wit
 
 ## Install
 
+### Option 1: install with Go
+
+```bash
+go install github.com/remiges-tech/plaintest/cmd/plaintest@latest
+```
+
+### Option 2: build from source
+
+```bash
+go build -o plaintest ./cmd/plaintest
+```
+
+### Prerequisite
+
+PlainTest also needs Newman:
+
 ```bash
 npm install -g newman newman-reporter-htmlextra
-go build -o plaintest ./cmd/plaintest
 ```
 
 ## Use

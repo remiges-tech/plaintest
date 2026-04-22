@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"github.com/ssd532/plaintest/internal/core"
-	"github.com/ssd532/plaintest/internal/csv"
-	"github.com/ssd532/plaintest/internal/newman"
-	"github.com/ssd532/plaintest/internal/payloadsync"
-	"github.com/ssd532/plaintest/internal/scriptsync"
-	"github.com/ssd532/plaintest/internal/templates"
+	"github.com/remiges-tech/plaintest/internal/core"
+	"github.com/remiges-tech/plaintest/internal/csv"
+	"github.com/remiges-tech/plaintest/internal/newman"
+	"github.com/remiges-tech/plaintest/internal/payloadsync"
+	"github.com/remiges-tech/plaintest/internal/scriptsync"
+	"github.com/remiges-tech/plaintest/internal/templates"
 )
 
 var rootCmd = &cobra.Command{

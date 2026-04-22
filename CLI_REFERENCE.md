@@ -12,7 +12,13 @@ npm install -g newman newman-reporter-htmlextra
 
 ## Installation
 
-Build from source:
+Install with Go:
+
+```bash
+go install github.com/remiges-tech/plaintest/cmd/plaintest@latest
+```
+
+Or build from source:
 
 ```bash
 go build -o plaintest ./cmd/plaintest
